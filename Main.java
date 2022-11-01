@@ -3,29 +3,29 @@ import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) {
 		
-		double armut=2.14,elma=3.67,domates=1.11,muz=0.95,patlıcan=5.00;
+		double pear=2.14,apple=3.67,tomatoes=1.11,banana=0.95,aubergine=5.00;
 		int a,e,d,m,p;
 		
-		Scanner girdi=new Scanner(System.in);
+		Scanner input=new Scanner(System.in);
 		
 		System.out.print("Armut kaç kilo?");
-		a=girdi.nextInt();
+		a=input.nextInt();
 		
 		System.out.print("Elma kaç kilo?");
-		e=girdi.nextInt();
+		e=input.nextInt();
 		
 		System.out.print("Domates kaç kilo?");
-		d=girdi.nextInt();
+		d=input.nextInt();
 		
 		System.out.print("Muz kaç kilo?");
-		m=girdi.nextInt();
+		m=input.nextInt();
 		
 		System.out.print("Patlıcan kaç kilo?");
-		p=girdi.nextInt();
+		p=input.nextInt();
 		
-		double toplam=a*armut+e*elma+d*domates+m*muz+p*patlıcan;
+		double total=a*pear+e*apple+d*tomatoes+m*banana+p*aubergine;
 	
-		System.out.println("Toplam tutar:" + toplam + " TL");
+		System.out.println("Toplam tutar:" + total + " TL");
 	}
 
 }
